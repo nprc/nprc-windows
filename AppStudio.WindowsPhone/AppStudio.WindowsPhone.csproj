@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{b8d827ac-0365-4558-b908-ccb5c78ad86a}</ProjectGuid>
+    <ProjectGuid>{bfee7de8-1b08-4f85-a9ca-7d18ddd6c935}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AppStudio</RootNamespace>
@@ -141,7 +141,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AppStudio.Data\AppStudio.Data.csproj">
-      <Project>{87afb517-f8ba-4332-ac6a-47355713f0eb}</Project>
+      <Project>{8613bcf1-de32-4e1f-8cae-2a2a89dd89ea}</Project>
       <Name>AppStudio.Data</Name>
     </ProjectReference>
   </ItemGroup>
