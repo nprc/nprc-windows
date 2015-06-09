@@ -5,7 +5,7 @@
     <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8613bcf1-de32-4e1f-8cae-2a2a89dd89ea}</ProjectGuid>
+    <ProjectGuid>{2b5e80cf-b5b9-460f-b415-e9a3f9c8ae8f}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AppStudio.Data</RootNamespace>

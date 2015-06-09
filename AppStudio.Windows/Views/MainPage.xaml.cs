@@ -49,8 +49,6 @@ namespace AppStudio.Views
 
                 // Optional: Add a progress ring to your splash screen to show users that content is loading
                 PositionRing();
-
-
             }
         }
 

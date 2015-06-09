@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{78f0393f-70da-4887-be72-cd8231b3464a}</ProjectGuid>
+    <ProjectGuid>{a9d2124d-6649-44d0-b575-07d5889d4d23}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AppStudio</RootNamespace>
@@ -168,12 +168,12 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Newtonsoft.Json.6.0.6\lib\netcore45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\netcore45\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AppStudio.Data\AppStudio.Data.csproj">
-      <Project>{8613bcf1-de32-4e1f-8cae-2a2a89dd89ea}</Project>
+      <Project>{2b5e80cf-b5b9-460f-b415-e9a3f9c8ae8f}</Project>
       <Name>AppStudio.Data</Name>
     </ProjectReference>
   </ItemGroup>
