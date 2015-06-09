@@ -6,21 +6,21 @@
   <!--Progress bar Color-->
   <ResourceDictionary.ThemeDictionaries>
     <ResourceDictionary x:Key="Default">
-      <x:String x:Key="ProgressBarIndeterminateForegroundThemeBrush">#ffffff</x:String>
+      <x:String x:Key="ProgressBarIndeterminateForegroundThemeBrush">#000000</x:String>
     </ResourceDictionary>
   </ResourceDictionary.ThemeDictionaries>
   
   <!--Pages Colors-->
-  <Color x:Key="AppBackgroundColor">#0f75bc</Color>
+  <Color x:Key="AppBackgroundColor">#ffffff</Color>
   <!--Text Colors-->
-  <Color x:Key="AppTitleForegroundColor">#ffffff</Color>
-  <Color x:Key="PageTitleForegroundColor">#ffffff</Color>
-  <Color x:Key="TitleForegroundColor">#ffffff</Color>
-  <Color x:Key="SubtitleForegroundColor">#ffffff</Color>
-  <Color x:Key="DescriptionForegroundColor">#ffffff</Color>
+  <Color x:Key="AppTitleForegroundColor">#000000</Color>
+  <Color x:Key="PageTitleForegroundColor">#000000</Color>
+  <Color x:Key="TitleForegroundColor">#000000</Color>
+  <Color x:Key="SubtitleForegroundColor">#000000</Color>
+  <Color x:Key="DescriptionForegroundColor">#000000</Color>
   <!--AppBar Colors-->
-  <Color x:Key="AppBarBackgroundColor">#000000</Color>
-  <Color x:Key="AppBarForegroundColor">#ffffff</Color>
+  <Color x:Key="AppBarBackgroundColor">#f0f0f0</Color>
+  <Color x:Key="AppBarForegroundColor">#000000</Color>
   <!--Tile Colors-->
   <Color x:Key="BoxBackgroundColor">#000000</Color>
   <Color x:Key="BoxForegroundColor">#ffffff</Color>
@@ -51,17 +51,17 @@
   <Style TargetType="TextBlock" x:Key="AppTitleStyle">
     <Setter Property="Foreground" Value="{StaticResource AppTitleForegroundColor}"/>
     <Setter Property="FontSize" Value="{StaticResource AppTitleTextSizeNormal}"/>
-    <Setter Property="FontWeight" Value="Normal"/>
+    <Setter Property="FontWeight" Value="Light"/>
   </Style>
   <Style TargetType="TextBlock" x:Key="PageTitleStyle">
     <Setter Property="Foreground" Value="{StaticResource PageTitleForegroundColor}"/>
     <Setter Property="FontSize" Value="{StaticResource PageTitleTextSizeNormal}"/>
-    <Setter Property="FontWeight" Value="Normal"/>
+    <Setter Property="FontWeight" Value="Light"/>
   </Style>
   <Style TargetType="TextBlock" x:Key="TitleStyle" BasedOn="{StaticResource BaseTextStyle}">
     <Setter Property="Foreground" Value="{StaticResource TitleForegroundColor}"/>
     <Setter Property="FontSize" Value="{StaticResource TitleTextSizeNormal}"/>
-    <Setter Property="FontWeight" Value="Bold"/>
+    <Setter Property="FontWeight" Value="Normal"/>
   </Style>
   <Style TargetType="TextBlock" x:Key="SubtitleStyle" BasedOn="{StaticResource BaseTextStyle}">
     <Setter Property="Foreground" Value="{StaticResource SubtitleForegroundColor}"/>
@@ -83,7 +83,7 @@
   <Style TargetType="TextBlock" x:Key="BoxTitleTextStyle" BasedOn="{StaticResource BaseTextStyle}">
     <Setter Property="Foreground" Value="{StaticResource BoxForegroundColor}"/>
     <Setter Property="FontSize" Value="{StaticResource TitleTextSizeNormal}"/>
-    <Setter Property="FontWeight" Value="Bold"/>
+    <Setter Property="FontWeight" Value="Normal"/>
   </Style>
   <Style TargetType="TextBlock" x:Key="BoxSubtitleTextStyle" BasedOn="{StaticResource BaseTextStyle}">
     <Setter Property="Foreground" Value="{StaticResource BoxForegroundColor}"/>

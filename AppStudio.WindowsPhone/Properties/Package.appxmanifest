@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
-  <Identity Name="42605Conglomo.NewPlymouthReformedChurch" Publisher="CN=7E9CE47A-0922-4ECE-A9D2-C9DC369E1123" Version="1.0.0.0" />
+  <Identity Name="42605Conglomo.NewPlymouthReformedChurch" Publisher="CN=7E9CE47A-0922-4ECE-A9D2-C9DC369E1123" Version="1.0.1.0" />
 
   <mp:PhoneIdentity PhoneProductId="0b340bdf-117b-4736-9f06-a7675cfd7eff" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
