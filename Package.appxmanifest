@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:appstudio="http://schemas.microsoft.com/developer/appx/2015/appstudio" IgnorableNamespaces="uap mp appstudio">
+  <Identity Name="42605Conglomo.NewPlymouthReformedChurch" Publisher="CN=7E9CE47A-0922-4ECE-A9D2-C9DC369E1123" Version="1.0.4.0" />
+  <mp:PhoneIdentity PhoneProductId="c718450d-bc16-4a4a-a27c-4c14bb237854" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>New Plymouth Reformed Church</DisplayName>
+    <PublisherDisplayName>Conglomo</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.10240.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="http://nprc.nz/">
+      <uap:VisualElements DisplayName="New Plymouth Reformed Church" Description="The official New Plymouth Reformed Church app." BackgroundColor="#ffffff" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
+        <uap:SplashScreen Image="images\SplashScreen.png" BackgroundColor="#ffffff" />
+        <uap:DefaultTile Wide310x150Logo="images\Wide310x150Logo.png" ShortName="New Plymouth Reformed Church" Square71x71Logo="images\Square71x71Logo.png" Square310x310Logo="images\Square310x310Logo.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="portrait" />
+          <uap:Rotation Preference="landscape" />
+          <uap:Rotation Preference="portraitFlipped" />
+          <uap:Rotation Preference="landscapeFlipped" />
+        </uap:InitialRotationPreference>
+      </uap:VisualElements>
+      <uap:ApplicationContentUriRules>
+        <uap:Rule Match="http://nprc.nz/" Type="include" WindowsRuntimeAccess="all" />
+        <uap:Rule Match="https://sermons.azurewebsites.net/" Type="include" WindowsRuntimeAccess="all" />
+      </uap:ApplicationContentUriRules>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+  <appstudio:Metadata>
+    <appstudio:Item Name="appId" Value="c718450d-bc16-4a4a-a27c-4c14bb237854" />
+    <appstudio:Item Name="model" Version="1.11" />
+    <appstudio:Item Name="formula" Value="Hwa" Version="1.11.0731.1" />
+  </appstudio:Metadata>
+</Package>

@@ -228,4 +228,8 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+
+# Solution Specific Files
 NZWalks.sln.GhostDoc.xml
+/Package.StoreAssociation.xml
+/BundleArtifacts
